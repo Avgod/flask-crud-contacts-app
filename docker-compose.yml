@@ -13,7 +13,7 @@ services:
   flaskapp:
     image: abhishekjayaram/flask:v4
     ports:
-      - "3000:3000"
+      - "6000:6000"
     environment:
       MYSQL_HOST: mysqldb
       MYSQL_USER: root
