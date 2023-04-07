@@ -11,7 +11,7 @@ services:
       MYSQL_DATABASE: flaskcrud
   
   flaskapp:
-    image: abhishekjayaram/flask:v4
+    image: flask-contacts:$BUILD_NUMBER
     ports:
       - "6000:6000"
     environment:
