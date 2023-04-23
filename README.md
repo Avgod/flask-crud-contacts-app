@@ -7,9 +7,6 @@ new line added
 - pip install flask
 - pip install flask-mysqldb
 
-# issues
-- sudo apt-get install libmysqlclient-dev
-
 jenkins
 git clone https://github.com/Avgod/flask-crud-contacts-app.git
 cd flask-crud-contacts-app
