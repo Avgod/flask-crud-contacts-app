@@ -7,7 +7,7 @@ new line added
 - pip install flask
 - pip install flask-mysqldb
 
-jenkins
+jenkins.
 git clone https://github.com/Avgod/flask-crud-contacts-app.git
 cd flask-crud-contacts-app
 pip install -r requirements.txt
