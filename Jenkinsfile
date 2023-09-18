@@ -7,11 +7,9 @@ pipeline {
             }
         }
     }
-   stages {
         stage('Deploy') {
             steps {
                 sh 'echo it is deployed'
             }
         }
-  }
 }
