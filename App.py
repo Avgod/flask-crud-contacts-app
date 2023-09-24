@@ -4,7 +4,7 @@ import os
 
 # initializations
 app = Flask(__name__)
-
+#added 
 # Mysql Connection
 if os.environ.get('MYSQL_HOST'):
     app.config['MYSQL_HOST'] = os.environ.get('MYSQL_HOST')
