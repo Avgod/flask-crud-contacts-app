@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo it is deployed'
+                sh 'echo it is deployed to prod'
             }
         }
 }
